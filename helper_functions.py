@@ -39,7 +39,7 @@ def multitarget_walk_forward_validation_wrapper(participant_df: pd.DataFrame, db
                                                 clock_change_start=None, clock_change_end=None, min_number_of_calibration_points=None,earlystopping=None, test_output=None):
     """
     This method is used to wrap the whole process. It can be used to run a single, or multiple scenarios.
-    Each scenario does a rolling calibration and prediction for each day in the time horizon, the output is then saved to the database (and output to a cvs).
+    Each scenario does a rolling calibration and prediction for each day in the time horizon (i.e. walk forward validation), the output is then saved to the database (and output to a csv).
     The method can handle a number of different scenarios and meta parameters.
 
     Parameters

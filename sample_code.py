@@ -31,8 +31,8 @@ if __name__ == "__main__":
               'GU_500904', 'AU_400100', 'DSU_403760', 'AU_500110', 'GU_400270', 'SU_400330', 'GU_504090', 'SU_400354', 'GU_400771', 'GU_402050', 'GU_500041', 'GU_500270', 'SU_400213', 'GU_403840', 'GU_401790', 'GU_403400', 'AU_400125', 'SU_400329', 'GU_400770', 'AU_400133', 'GU_402030', 'SU_400215', 'GU_504030', 'AU_500113', 'AU_500138', 'GU_401760', 'GU_500282', 'SU_500050', 'GU_402130', 'AU_500109', 'SU_500095', 'GU_404300', 'GU_404010', 'GU_402140', 'GU_401011', 'DSU_401870', 'GU_501390', 'GU_401350', 'GU_503390', 'GU_501310', 'GU_400311', 'GU_400251', 'SU_400193', 'SU_400353', 'GU_500210']        
 
     #The forecasting horizon.
-    start_time = dt.datetime(2020, 10, 1, 23, 0, 0, 0)
-    end_time = dt.datetime(2023, 5, 31, 23, 0, 0, 0)
+    start_time = dt.datetime(2020, 12, 31, 23, 0, 0, 0)
+    end_time = dt.datetime(2022, 12, 31, 23, 0, 0, 0)
 
 
     #we don't produce a forecast for trading periods falling within the clock change (i.e. date convention in some of the source files for these days may not align). 
